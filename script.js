@@ -1,5 +1,4 @@
-// Function to switch between screens
-        function showScreen(screenId) {
+function showScreen(screenId) {
             // Hide all screens
             document.querySelectorAll('.screen').forEach(screen => {
                 screen.classList.remove('active');
